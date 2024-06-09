@@ -1,0 +1,26 @@
+.nav-search .search-results {
+    list-style: none;
+    margin-top: 8px;
+    padding: 0;
+    background: white;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: absolute;
+
+}
+
+.nav-search .search-results li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+}
+
+.nav-search .search-results li:last-child {
+    border-bottom: none;
+}
+
+.nav-search .search-results li:hover {
+    background-color: #f0f0f0;
+}

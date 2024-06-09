@@ -1,0 +1,39 @@
+version: "3"
+services:
+  db:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+      - "28017:28017"
+    networks:
+        - app-network
+  app:
+    image: community-app:latest
+    build:
+        context: ./app
+        dockerfile: Dockerfile
+    container_name: app
+    restart: always
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb+srv://enesakkal:121416f9@cluster0.n8mhuzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - SPRING_DATA_MONGODB_DATABASE=communityApp
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - app-network
+  react:
+    image: community-react:latest
+    build:
+        context: ./react
+        dockerfile: Dockerfile
+    container_name: react
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+networks:
+    app-network:
+        driver: bridge

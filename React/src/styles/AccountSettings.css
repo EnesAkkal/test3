@@ -1,0 +1,310 @@
+.accountsettings{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.accountsettings h1{
+    padding: 10px 20px;
+    color: var(--darkRedColor);
+}
+
+.mainbutton1{
+    background-color: var(--darkRedColor) ;
+    color:var(--whiteColor);
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 250px;
+    font-size: var(--fs14);
+    height: 50px;
+    border-radius:25px;
+    border: 0.1rem solid var(--darkRedColor);
+}
+
+.mainbutton1:hover{
+    background-color: #cd4342;
+}
+
+
+
+.accountsettings .form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.accountsettings .form .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px;
+}
+
+.accountsettings .form .form-group label{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.accountsettings .form .form-group input{
+    padding: 10px 20px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    outline: none;
+}
+
+.accountsettings .form .form-group input:focus{
+    border: 1px solid var(black);
+}
+
+
+
+@media (max-width: 800px){
+    .accountsettings .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .accountsettings .form .form-group{
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        margin: 10px;
+    }
+    .accountsettings h1{
+        font-size: 20px;
+    }
+    .accountsettings .form .form-group label{
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+} 
+
+
+
+/* ******************************* CHANGE PASSWORD SECTION ************************************************** */
+
+.changepassword{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.changepassword .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.changepassword .form .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 10px;
+}
+
+.changepassword .form .form-group label {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.changepassword .form .form-group input {
+    padding: 10px 20px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    outline: none; 
+}
+
+.changepassword h1 {
+    padding: 10px 20px;
+    color: var(--darkRedColor); 
+}
+
+
+/* ******************************* CHANGE MAIL SECTION ************************************************** */
+
+
+.changemail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.changemail .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.changemail .form .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 10px;
+}
+
+.changemail .form .form-group label {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.changemail .form .form-group input {
+    padding: 10px 20px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    outline: none; 
+}
+
+.changemail h1 {
+    padding: 10px 20px;
+    color: var(--darkRedColor); 
+}
+
+/* ******************************* CHANGE NICKNAME SECTION ************************************************** */
+
+
+.changeNickname{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.changeNickname .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.changeNickname .form .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 10px;
+}
+
+.changeNickname .form .form-group label {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.changeNickname .form .form-group input {
+    padding: 10px 20px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    outline: none; 
+}
+
+.changeNickname h1 {
+    padding: 10px 20px;
+    color: var(--darkRedColor); 
+}
+
+
+/* ******************************* KICK USER SECTION ************************************************** */
+
+.kick-main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list{
+    padding: 3rem;
+   
+}
+
+.list:hover{
+    background-color: rgb(246, 246, 246);
+}
+
+.line{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.line:hover{
+  /*  box-shadow:  0px 0px 10px 0px rgba(0,0,0,0.1); */
+}
+
+.name {
+    font-size: 1rem;
+    color: black;
+}
+
+.username{
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.line p {
+    font-size: 1rem;
+    color:black ;
+    font-weight: 500;
+}
+
+.user .details{
+    margin-left: 1.5rem;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role span {
+    display: inline-block;
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+
+}
+
+.list-title{
+    padding: 3rem;
+}
+
+.list-title span{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}

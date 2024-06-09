@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: communityApp
+  data:
+    mongodb:
+      uri: mongodb+srv://enesakkal:121416f9@cluster0.n8mhuzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: communityApp

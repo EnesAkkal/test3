@@ -1,0 +1,172 @@
+.main-wrapper1{
+background-color: var(--lightWhiteColor);
+width: 100%;
+height: 1000px;
+}
+
+.body-area{
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    height: 1050px;
+    width: 100%;
+}
+
+.navigate-section{
+    display: block;
+    padding: .5rem;
+    margin: 25px 0px 10px 0px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.11), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04);
+}
+
+
+.navigate-section ul{
+display: block;
+margin: 0;
+font-size: .9em;
+padding: .5em 0;
+overflow: hidden;
+list-style: none;
+clear: both;
+width: 100%;
+}
+
+.navigate-section ul li {
+    display: inline;
+    float: left;
+    padding: 0 .5em 0 0;
+    font-size: .95em;
+    font-weight: 700;
+}
+
+.navigate-section li::after {
+    content: " > ";
+  }
+
+  .navigate-section li:last-child::after {
+    content: "";
+}
+
+.sp_main{
+    width: 100%;
+    border-spacing: 5px;
+    table-layout: fixed;
+}
+
+.pagesection{
+    font-size: .9em;
+    padding: .2em;
+    overflow: hidden;
+    margin-bottom: 1px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.11), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04);
+}
+
+.pagelinks{
+    float: left;
+    padding: 1.3em 0.4em;;
+}
+
+.forumposts{
+    padding-top: 20px;
+}
+
+.titlebar{
+    margin: 0 0 2px;
+    height: 31px;
+    overflow: hidden;
+    display: flex;
+}
+
+.title-author{
+    width: 15%;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.11), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04);
+}
+
+.title-content{
+    width: 85%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.11), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04);
+}
+
+h3 span#author{
+    margin: 0 7.7em 0 0;
+}
+
+.poster{
+    float: left;
+    background-color: white;
+    margin-top: 4px;
+    width: 15%;
+    height: 200px;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.11), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04);
+}
+
+.poster h4{
+    font-size: 120%;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-info li {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+}
+
+.postarea{
+    width: 85%;
+    background-color: white;
+    height: 825px;
+    display: flex;
+}
+
+.postconcent{
+    width: 100%;
+    background-color:white;
+    height: 20px;
+}
+
+.keyinfo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.keyinfo h5{
+    color: #333;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.br{
+    width: 100%;
+    color: black;
+    height: 4px;
+}
+
+.line{
+    width: 100%;
+    color: black;
+    height: 10px;
+}
+
+ul.profile-info  {
+    margin-top:40px
+}

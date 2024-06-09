@@ -1,0 +1,143 @@
+.h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+  }
+
+  .root{
+    background-color: var(--lightWhiteColor);
+  }
+
+  .title{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+  }
+  .post-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: var(--whiteColor);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    flex: 0 0 100%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+  }
+ input[type="post-name"],
+ input[type="file"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--darkRedColor);
+    border: 0.1rem solid var(--darkRedColor);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #cd4342;
+  }
+  .form {
+    width: 100%;
+    display: inline;
+  }
+
+  input[type="post-file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .template{
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .post-container select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.template-content{
+  width: 100%;
+}
+
+.field input  {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.post-info-areaa{
+  margin-bottom: 100px;
+  flex-direction: column;
+  display: flex;
+}
+
+.post-infos{
+  font-size: 16px;
+}
