@@ -27,7 +27,7 @@ services:
   react:
     image: community-react:latest
     build:
-      context: ./react
+      context: ./React
       dockerfile: Dockerfile
     container_name: react
     ports:
